@@ -1,7 +1,7 @@
 import {useState} from "react";
 import "./custombutton.css"
 
-const likebutton = (props) => {
+const likeButton = (props) => {
     const [buttonClass,setButtonClass] = useState('inactive');
 }
 
@@ -19,4 +19,4 @@ function handleClick() {
     )
 }
    
-export default likebutton
+export default likeButton
