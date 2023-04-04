@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import DisplayPost from "./components/post";
 import AddPostForm from "./components/create_post_form";
 import Custombuttons from "./components/post";
-import "./styles.css";
+
 
 
 function App() {

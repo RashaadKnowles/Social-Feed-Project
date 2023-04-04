@@ -4,7 +4,7 @@ import "./custombutton.css"
 
 const dislikebutton = (props) => {
     const [buttonClass,setButtonClass] = useState('inactive');
-}
+
 
 function handleClick() {
     if (buttonClass === "inactive"){
@@ -19,5 +19,5 @@ function handleClick() {
             <button className={buttonClass} onClick={handleClick}>{props.message} </button>
         </div>
     )
-
+    }
 export default dislikebutton; 

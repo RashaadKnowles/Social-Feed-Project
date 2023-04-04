@@ -3,7 +3,7 @@ import "./custombutton.css"
 
 const likeButton = (props) => {
     const [buttonClass,setButtonClass] = useState('inactive');
-}
+
 
 function handleClick() {
     if (buttonClass === "inactive"){
@@ -18,5 +18,5 @@ function handleClick() {
         </div>
     )
 }
-   
+}  
 export default likeButton
