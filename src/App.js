@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import DisplayPost from "./components/post";
-
-
+import AddPostForm from "./components/create_post_form";
+import Custombuttons from "./components/post";
+import "./styles.css";
 
 
 function App() {
@@ -12,9 +13,14 @@ function App() {
   }
   return (
     <div className="App">
+      <AddPostForm addNewPostProperty={addNewPost} />
       <DisplayPost parentEntries = {entries} />
+      <Custombuttons parentEntries = {entries} />
+      <Custombuttons message="Like"/>
+      <Custombuttons message="Dislike"/>
     </div>
   );
 }
+ 
 
 export default App;

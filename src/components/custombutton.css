@@ -1,0 +1,17 @@
+button{
+    color:white;
+    display: inline-block;
+}
+
+.likeactive{
+    background-color: green;
+}
+
+.dislikeactive{
+    background-color: red;
+}
+
+
+.inactive{
+    background-color: white;
+}
