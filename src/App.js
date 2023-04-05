@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import DisplayPost from "./components/post";
 import AddPostForm from "./components/create_post_form";
 import Custombuttons from "./components/post";
-
+import DislikeButton from "./components/dislikebutton";
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <DisplayPost parentEntries = {entries} />
       <Custombuttons parentEntries = {entries} />
       <Custombuttons message="Like"/>
-      <Custombuttons message="Dislike"/>
+      <DislikeButton message="Dislike"/>
     </div>
   );
 }

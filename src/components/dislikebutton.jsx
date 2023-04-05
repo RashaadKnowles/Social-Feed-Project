@@ -2,7 +2,7 @@ import {useState} from "react";
 import "./custombutton.css"
 
 
-const dislikebutton = (props) => {
+const DislikeButton = (props) => {
     const [buttonClass,setButtonClass] = useState('inactive');
 
 
@@ -20,4 +20,4 @@ function handleClick() {
         </div>
     )
     }
-export default dislikebutton; 
+export default DislikeButton; 
